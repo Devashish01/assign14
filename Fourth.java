@@ -1,4 +1,8 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.Scanner;
 class Student
 {
 	String name;
@@ -41,7 +45,7 @@ class Age implements Comparator
 		}
 	}
 }
-class Simple
+class Fourth
 {
 	
 	
@@ -86,4 +90,3 @@ class Simple
 
 	}
 }
-

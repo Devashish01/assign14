@@ -1,4 +1,4 @@
-public class Generic {
+public class Third {
   
   
   public static void main(String args[]) {
@@ -16,10 +16,10 @@ public class Generic {
     show(doublea); 
     
   } 
-  public static <T> void show(T[] inputArray) {
+  public static <T> void show(T[] iy) {
 	  
-	    for (T print : inputArray)
-	      System.out.printf("%s \n", print);
+	    for (T p : iy)
+	      System.out.printf("%s \n", p);
 
 	  }
 
